@@ -1,0 +1,167 @@
+
+author = "Team TA";
+dev = "Mysterfreez / AureProd / Ghis";
+OnLoadName = "Evening Forget";
+OnLoadMission = "<t color='#FF0000'>Une Jeu pour la JAM</t>";
+loadScreen = "image\load.jpg";
+
+onLoadIntro   = "";
+showCompass   = 0;
+showGPS       = 0;
+showMap       = 0;
+showNotePad   = 0;
+showWatch     = 0;
+debriefing    = 0;
+
+respawn = "INSTANT";
+respawnDelay = 0;
+respawnDialog = false;
+
+joinUnassigned = 1;
+
+disabledAI    = 1;
+disableChannels[]={};
+overviewText = "";
+overviewTextLocked = "";
+
+#include "dialogues\common.hpp"
+#include "dialogues\menu.hpp"
+
+class RscTitles
+{
+    #include "dialogues\intro.hpp"
+};
+
+class CfgSounds 
+{
+    sounds[] = {};
+	class bip {
+        name = "bip";
+        sound[] = {"\son\bip.ogg", 5, 1};
+        titles[] = {};
+    };
+    class chaises {
+        name = "chaises";
+        sound[] = {"\son\chaises.ogg", 7, 1};
+        titles[] = {};
+    };
+    class ambiance {
+        name = "ambiance";
+        sound[] = {"\son\ambiance.ogg", 0.3, 1};
+        titles[] = {};
+    };
+    class cris {
+        name = "cris";
+        sound[] = {"\son\cris.ogg", 5, 1};
+        titles[] = {};
+    };
+    class intro {
+        name = "intro";
+        sound[] = {"\son\evening.ogg", 5, 1};
+        titles[] = {};
+    };
+    class waterphone {
+        name = "waterphone";
+        sound[] = {"\son\waterphone.ogg", 2, 1};
+        titles[] = {};
+    };
+    class chaises_bis {
+        name = "chaises_bis";
+        sound[] = {"\son\chaises_bis.ogg", 2, 1};
+        titles[] = {};
+    };
+    class dieux {
+        name = "dieux";
+        sound[] = {"\son\mon_dieux.ogg", 2, 1};
+        titles[] = {};
+    };
+    class manque {
+        name = "manque";
+        sound[] = {"\son\elle_me_manque.ogg", 3, 1};
+        titles[] = {};
+    };
+    class toctoc {
+        name = "toctoc";
+        sound[] = {"\son\toctoc.ogg", 3, 1};
+        titles[] = {};
+    };
+    class playliste {
+        name = "playliste";
+        sound[] = {"\son\playliste.ogg", 3, 1};
+        titles[] = {};
+    };
+    class pasMoi1 {
+        name = "pasMoi1";
+        sound[] = {"\son\pas_a_moi.ogg", 3, 1};
+        titles[] = {};
+    };
+    class pasMoi2 {
+        name = "pasMoi2";
+        sound[] = {"\son\pas_a_moi_2.ogg", 3, 1};
+        titles[] = {};
+    };
+    class ikeo {
+        name = "ikeo";
+        sound[] = {"\son\ikeo.ogg", 3, 1};
+        titles[] = {};
+    };
+    class morse {
+        name = "morse";
+        sound[] = {"\son\morse.ogg", 3, 1};
+        titles[] = {};
+    };
+    class radio {
+        name = "radio";
+        sound[] = {"\son\radio.ogg", 3, 1};
+        titles[] = {};
+    };
+    class radio_bis {
+        name = "radio_bis";
+        sound[] = {"\son\radio_bis.ogg", 3, 1};
+        titles[] = {};
+    }; 
+    class tel1 {
+        name = "tel1";
+        sound[] = {"\son\tel1.ogg", 3, 1};
+        titles[] = {};
+    };
+    class photo {
+        name = "photo";
+        sound[] = {"\son\photo.ogg", 3, 1};
+        titles[] = {};
+    };
+    class tel2 {
+        name = "tel2";
+        sound[] = {"\son\tel2.ogg", 3, 1};
+        titles[] = {};
+    };
+    class hier {
+        name = "hier";
+        sound[] = {"\son\hier_soir.ogg", 3, 1};
+        titles[] = {};
+    };
+    class monnaie1 {
+        name = "monnaie1";
+        sound[] = {"\son\monnaie1.ogg", 3, 1};
+        titles[] = {};
+    };
+};
+
+class Header
+{
+    gameType = PvP;
+    minPlayers = 1;
+    maxPlayers = 2;
+};
+
+class CfgNotifications
+{
+    class Notif
+    {
+        title = "%1";
+        iconPicture = "\A3\ui_f\data\map\markers\military\warning_CA.paa";
+        description = "%2";
+        duration = 5;
+        priority = 1;
+    };
+};

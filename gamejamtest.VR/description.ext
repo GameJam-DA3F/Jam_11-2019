@@ -1,0 +1,48 @@
+#include "menu.hpp"
+class CfgSounds
+{
+sounds[] = {};
+class 01
+{
+	name = "01";
+	sound[] = {"sounds\lvl1welcome.ogg", db+10, 1.0};
+	titles[] = {0,""};
+};
+class 02
+{
+	name = "02";
+	sound[] = {"sounds\lvl1mine.ogg", db+10, 1.0};
+	titles[] = {0,""};
+};
+class 03
+{
+	name = "03";
+	sound[] = {"sounds\lvl2welcome.ogg", db+10, 1.0};
+	titles[] = {0,""};
+};
+class 04
+{
+	name = "04";
+	sound[] = {"sounds\lvl2mort.ogg", db+10, 1.0};
+	titles[] = {0,""};
+};
+class 05
+{
+	name = "05";
+	sound[] = {"sounds\lvl2tourelle.ogg", db+10, 1.0};
+	titles[] = {0,""};
+};
+class 06
+{
+	name = "06";
+	sound[] = {"sounds\lvl3welcome", db+10, 1.0};
+	titles[] = {0,""};
+};
+class 07
+{
+	name = "07";
+	sound[] = {"sounds\lvl3end.ogg", db+10, 1.0};
+	titles[] = {0,""};
+};
+
+};

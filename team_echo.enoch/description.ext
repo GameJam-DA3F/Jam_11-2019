@@ -1,0 +1,9 @@
+class CfgFunctions {
+	class Echo_FoW {
+		class Visions {
+			class enterVision {};
+			class onHandleDamage {};
+			class setupVision {};
+		};
+	};
+};

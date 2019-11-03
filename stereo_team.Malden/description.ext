@@ -1,0 +1,20 @@
+/*
+Jam 03/11/2019 Arma3France DA3F
+STEREOTeam
+
+description.ext
+ras
+*/
+class RscTitles {
+	class Default {
+		idd = -1;
+		fadein = 0;
+		fadeout = 0;
+		duration = 0;
+	};
+	#include "dialogs.hpp"
+};
+
+class CfgFunctions {
+	#include "Functions.hpp"
+};
